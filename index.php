@@ -13,17 +13,26 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 	    <div class="collapse navbar-collapse">
 	    	<ul class="nav navbar-nav">
-	    		<li class="active"><a href="#">Гороскоп</a></li>
+	    		<li><a href="#">Личный гороскоп</a></li>
 				<li><a href="#">Новости <span class="badge">1</span></a></li>
 	    	</ul>
 	    
 			<p class="navbar-text pull-right" id='subs'>Подписка не куплена</p>
 	    </div>
     </nav>
+    
     <div class="container">
+	    <div class="row">
+	    	<div class="col-sm-12">
+		    	<div class="alert alert-info alert-dismissable">
+				  	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+				  	<strong>Личный гороскоп!</strong> Узнай что звезды говорят именно о тебе! <a href="#" class="alert-link">Подробнее</a>
+				</div>
+	    	</div>
+	    </div>
 	    <div class="row">
 	    	<div class="col-sm-3">
 		    	<div class="thumbnail">
