@@ -1,5 +1,6 @@
 body {
 	padding-top: 0px;
+	
 }
 
 .thumbnail{
@@ -8,5 +9,26 @@ body {
 
 .tab-content{
 	margin-top: 10px;
+	padding: 10px;
 }
 
+.progress{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	margin-top: 30%;
+}
+
+.lead{
+	margin-bottom: 0px;
+}
+
+.friends{
+	bottom: 0px;
+	position: fixed;
+	padding-bottom: 10px;
+}
+
+.friend{
+	margin-right: 5px;
+}
